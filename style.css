@@ -1,17 +1,7 @@
-/* Generics */
-
-/* # COUNTDOWN */
-
-#countdown {
-	font-weight: bolder;
-	font-size: 5rem;
+.btn .btn-primary {
+    background-color: blue;
 }
 
-/* #NUMBERS */
-#numbers-list {
-	font-size: 3rem;
-}
-
-input {
-	width: 80px !important;
+.form-control {
+    background-color: blue;
 }
