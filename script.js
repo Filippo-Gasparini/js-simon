@@ -29,11 +29,15 @@ console.log('js-simon')
   //      clearInterval(interval);
 //};
 
+let count = 30
+const intervalId = setInterval(() => {
+    console.log(count)
+    count--
+    if (count === 0) {
+        clearInterval(intervalId)
+    }
+},1000);
 
 
-setTimeout('countdown', 3000)
-function countdown(){
-    alert( 'hello');
-}
 
 
