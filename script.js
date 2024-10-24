@@ -14,7 +14,7 @@ console.log('js-simon')
 //})
 
 
-//setTimeout = ('genera' 300000);
+//setTimeout = ('genera', 300000);
 
 
 
@@ -28,5 +28,12 @@ console.log('js-simon')
 
   //      clearInterval(interval);
 //};
+
+
+
+setTimeout('countdown', 3000)
+function countdown(){
+    alert( 'hello');
+}
 
 
